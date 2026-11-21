@@ -1,4 +1,4 @@
-import type { LoanFormData, LoanResult   } from "../types/loan.types";
+import type { LoanFormData  } from "../types/loan.types";
 
 interface LoanFormProps {
     loanData: LoanFormData;  //property of type LoanFormData
@@ -54,3 +54,4 @@ function LoanForm({
         </div>
     )
 }
+export default LoanForm
