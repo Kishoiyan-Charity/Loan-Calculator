@@ -28,7 +28,7 @@ function App() {
           <div className='brand-icon'>
             <Wallet size={24} />
           </div>
-          <div>
+          <div className='brand-text'>
             <h1>Loan Calculator</h1>
             <p>Simplified Loan Calcultor</p>
           </div>

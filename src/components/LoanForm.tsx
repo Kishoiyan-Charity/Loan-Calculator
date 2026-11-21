@@ -13,8 +13,13 @@ function LoanForm({
     
 }: LoanFormProps) {
     return (
-        <div>
-            <label>
+        <div className="loan-form">
+            <div className="section-header">
+                <h2>Loan Details</h2>
+                <p>Enter your loan information below:</p>
+            </div>
+            <div className="form-group">
+                    <label>
                 Principal:
                 <input
                     type="number"
@@ -50,6 +55,8 @@ function LoanForm({
                     }
                 />
             </label>
+            </div>
+        
 
         </div>
     )
